@@ -9,28 +9,9 @@
     ],
     "Referer": [
       "https://localhost/subscriptions/fa68082f-8ff7-4a25-95c7-ce9da541242f/resourceGroups/TestRG/providers/Microsoft.EdgeOrder/orderCollections/TestOrderCollectionName1?api-version=2020-12-01-preview"
-    ],
-    "Content-Type": [
-      "application/json; charset=utf-8"
-    ],
-    "Content-Length": [
-      "193"
-    ],
-    "orderCollectionUpdateParameter": {
-      "properties": {},
-      "tags": {
-        "Name": "TestName-Updated",
-        "Work": "Engineering",
-        "Hobby": "Coding-Added"
-      },
-      "location": "westus",
-      "type": "Microsoft.EdgeOrder/orderCollections"
-    }
+    ]
   },
   "responses": {
-    "202": {
-      "body": ""
-    },
     "200": {
       "body": {
         "properties": {
@@ -41,9 +22,8 @@
         },
         "location": "westus",
         "tags": {
-          "name": "TestName-Updated",
-          "work": "Engineering",
-          "hobby": "Coding-Added"
+          "name": "TestName",
+          "work": "Engineering"
         },
         "name": "TestOrderCollectionName1",
         "id": "/subscriptions/fa68082f-8ff7-4a25-95c7-ce9da541242f/resourceGroups/TestRG/providers/Microsoft.EdgeOrder/orderCollections/TestOrderCollectionName1",

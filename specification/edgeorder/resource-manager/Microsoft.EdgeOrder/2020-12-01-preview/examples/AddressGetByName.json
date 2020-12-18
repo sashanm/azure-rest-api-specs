@@ -9,47 +9,14 @@
     ],
     "Referer": [
       "https://localhost/subscriptions/fa68082f-8ff7-4a25-95c7-ce9da541242f/resourceGroups/TestRG/providers/Microsoft.EdgeOrder/addresses/TestMicrosoftAddressName2?api-version=2020-12-01-preview"
-    ],
-    "Content-Type": [
-      "application/json; charset=utf-8"
-    ],
-    "Content-Length": [
-      "611"
-    ],
-    "addressUpdateParameter": {
-      "properties": {
-        "shippingAddress": {
-          "streetAddress1": "16 TOWNSEND STT",
-          "streetAddress2": "UNIT 1",
-          "city": "San Francisco",
-          "stateOrProvince": "CA",
-          "country": "US",
-          "postalCode": "94107",
-          "companyName": "Microsoft",
-          "addressType": "None"
-        },
-        "contactDetails": {
-          "ContactName": "Petr Cech",
-          "Phone": "123344335",
-          "PhoneExtension": ""
-        }
-      },
-      "tags": {
-        "Name": "Smile-Updated",
-        "Work": "Engineering",
-        "Hobby": "Web Series Added",
-        "WhatElse": "Web Series Added"
-      },
-      "location": "westus",
-      "type": "Microsoft.EdgeOrder/addresses"
-    }
+    ]
   },
   "responses": {
     "200": {
       "body": {
         "properties": {
           "shippingAddress": {
-            "streetAddress1": "16 TOWNSEND STT",
+            "streetAddress1": "16 TOWNSEND ST",
             "streetAddress2": "UNIT 1",
             "streetAddress3": "",
             "city": "San Francisco",
@@ -62,17 +29,12 @@
           },
           "contactDetails": {
             "contactName": "Petr Cech",
-            "phone": "123344335",
+            "phone": "123344334",
             "phoneExtension": ""
           }
         },
         "location": "westus",
-        "tags": {
-          "name": "Smile-Updated",
-          "work": "Engineering",
-          "hobby": "Web Series Added",
-          "whatElse": "Web Series Added"
-        },
+        "tags": {},
         "identity": {
           "type": "None"
         },
@@ -80,7 +42,6 @@
         "id": "/subscriptions/fa68082f-8ff7-4a25-95c7-ce9da541242f/resourceGroups/TestRG/providers/Microsoft.EdgeOrder/addresses/TestMicrosoftAddressName2",
         "type": "Microsoft.EdgeOrder/addresses"
       }
-    },
-    "202": {}
+    }
   }
 }
